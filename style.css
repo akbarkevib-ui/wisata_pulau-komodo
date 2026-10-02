@@ -1,0 +1,220 @@
+* {
+  box-sizing: border-box;
+  }
+
+html {
+scroll-behavior: smooth;
+scroll-padding-top: 70px;
+}
+
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+background-color: #eef5f0;
+color: #333;
+}
+
+header {
+background-color: #176b4d;
+color: white;
+text-align: center;
+padding: 45px 20px;
+}
+
+header h1 {
+margin: 0 0 10px;
+font-size: 36px;
+}
+
+header p {
+margin: 0;
+font-size: 18px;
+}
+
+nav {
+background-color: #123c32;
+text-align: center;
+padding: 15px;
+position: sticky;
+top: 0;
+z-index: 10;
+}
+
+nav a {
+color: white;
+text-decoration: none;
+font-weight: bold;
+margin: 0 12px;
+padding: 8px 12px;
+display: inline-block;
+border-radius: 5px;
+}
+
+nav a:hover {
+background-color: #e3a928;
+color: #123c32;
+}
+
+.container {
+width: 90%;
+max-width: 1100px;
+margin: 30px auto;
+}
+
+.menu {
+background-color: white;
+padding: 30px;
+margin-bottom: 30px;
+border-radius: 12px;
+box-shadow: 0 3px 12px rgba(0, 0, 0, 0.12);
+}
+
+h2 {
+color: #176b4d;
+border-bottom: 3px solid #e3a928;
+padding-bottom: 8px;
+}
+
+p {
+line-height: 1.7;
+}
+
+.gambar-utama {
+width: 100%;
+max-height: 450px;
+object-fit: cover;
+display: block;
+margin: 20px auto;
+border-radius: 12px;
+}
+
+.gambar {
+width: 100%;
+max-width: 700px;
+max-height: 400px;
+object-fit: cover;
+display: block;
+margin: 20px auto;
+border-radius: 12px;
+}
+
+table {
+width: 100%;
+border-collapse: collapse;
+margin-top: 20px;
+background-color: white;
+}
+
+th {
+background-color: #176b4d;
+color: white;
+padding: 14px;
+text-align: center;
+}
+
+td {
+padding: 13px;
+border: 1px solid #ddd;
+text-align: center;
+}
+
+tr:nth-child(even) {
+background-color: #f2f7f4;
+}
+
+tr:hover {
+background-color: #fff4cf;
+}
+
+.galeri {
+display: flex;
+gap: 20px;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+.galeri img {
+width: 48%;
+max-height: 300px;
+object-fit: cover;
+border-radius: 10px;
+box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+video {
+width: 100%;
+max-width: 800px;
+display: block;
+margin: 20px auto;
+border-radius: 12px;
+background-color: #000;
+}
+
+#kontak a {
+color: #176b4d;
+font-weight: bold;
+text-decoration: none;
+}
+
+#kontak a:hover {
+text-decoration: underline;
+}
+
+footer {
+background-color: #123c32;
+color: white;
+text-align: center;
+padding: 25px;
+margin-top: 30px;
+}
+
+footer p {
+margin: 0;
+}
+
+@media (max-width: 700px) {
+header h1 {
+font-size: 28px;
+}
+
+
+header p {
+    font-size: 16px;
+}
+
+nav a {
+    display: block;
+    margin: 5px auto;
+}
+
+.container {
+    width: 95%;
+}
+
+.menu {
+    padding: 20px;
+}
+
+table {
+    font-size: 13px;
+}
+
+th,
+td {
+    padding: 8px;
+}
+
+.galeri img {
+    width: 100%;
+}
+
+.gambar-utama {
+    max-height: 300px;
+}
+
+.gambar {
+    max-height: 280px;
+}
+
+
+}
